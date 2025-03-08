@@ -1,7 +1,7 @@
 /**
  * printMultiplicationTable
  *
- * Print out the grade school multiplication table up to 9x9
+ * Print out the multiplication table up to 9x9
  * for each subsequent table, add a separation line ------
  *
  * Example:
@@ -19,3 +19,4 @@
 function printMultiplicationTable() {
 }
 
+printMultiplicationTable()
