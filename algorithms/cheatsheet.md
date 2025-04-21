@@ -1,9 +1,12 @@
-## String
+This is basic JavaScript data structures and methods that are commonly used in coding interviews.
+
+## String & Number
 
 ```javascript
 // Basics
 str.length                     // string length
 str[i]                         // access character at index
+`var1:${var1}, var2:${var2}`   // template literal for string interpolation
 
 // Core Operations
 str.substring(start, end)      // extract substring [start, end]
@@ -12,6 +15,12 @@ str.toLowerCase()/toUpperCase()// change case
 str.split(separator)           // split into array
 str.replace(search, replace)   // replace substring
 str.indexOf(substr)            // find substring index or -1
+
+// Number
+5%2                            // modulus
+Math.floor(num/2)              // round down to nearest integer
+nums.toFixed()                 // convert to string with fixed decimal
+
 ```
 
 ## Array
