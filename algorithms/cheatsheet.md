@@ -17,10 +17,9 @@ str.replace(search, replace)   // replace substring
 str.indexOf(substr)            // find substring index or -1
 
 // Number
-5%2                            // modulus
+9%4                            // modulus, here we get 1
 Math.floor(num/2)              // round down to nearest integer
 nums.toFixed()                 // convert to string with fixed decimal
-
 ```
 
 ## Array
@@ -30,7 +29,8 @@ nums.toFixed()                 // convert to string with fixed decimal
 arr.length                     // array length
 arr.push(item)/pop()           // add/remove from end
 arr.unshift(item)/shift()      // add/remove from beginning
-// use push/shift for queueue, push/pop for stack
+arr.push()/pop()               // behave as stack
+arr.push()/shift()             // behave as queue
 
 // Core Manipulation
 arr.map(fn)                    // transform elements
