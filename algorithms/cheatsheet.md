@@ -6,7 +6,7 @@ str.length                     // string length
 str[i]                         // access character at index
 
 // Core Operations
-str.substring(start, end)      // extract substring [start, end)
+str.substring(start, end)      // extract substring [start, end]
 str.trim()                     // remove whitespace from ends
 str.toLowerCase()/toUpperCase()// change case
 str.split(separator)           // split into array
@@ -21,6 +21,7 @@ str.indexOf(substr)            // find substring index or -1
 arr.length                     // array length
 arr.push(item)/pop()           // add/remove from end
 arr.unshift(item)/shift()      // add/remove from beginning
+// use push/shift for queueue, push/pop for stack
 
 // Core Manipulation
 arr.map(fn)                    // transform elements
@@ -31,6 +32,7 @@ arr.includes(item)             // check if item exists
 arr.indexOf(item)              // find item index or -1
 arr.sort((a, b) => a - b)      // sort numerically
 arr.from().fill()              // create array from iterable and fill with value
+arr.entries()                  // array of [index, value] pairs
 ```
 
 ## Object
