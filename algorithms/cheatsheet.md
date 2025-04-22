@@ -14,7 +14,7 @@ str.trim()                     // remove whitespace from ends
 str.toLowerCase()/toUpperCase()// change case
 str.split(separator)           // split into array
 str.replace("", replace)       // replace substring
-str.replaceAll("", replace)    // replace substring
+str.replaceAll("", replace)    // replace substring (all)
 str.indexOf(substr)            // find substring index or -1
 
 // Number
