@@ -13,7 +13,8 @@ str.substring(start, end)      // extract substring [start, end]
 str.trim()                     // remove whitespace from ends
 str.toLowerCase()/toUpperCase()// change case
 str.split(separator)           // split into array
-str.replace(search, replace)   // replace substring
+str.replace("", replace)       // replace substring
+str.replaceAll("", replace)    // replace substring
 str.indexOf(substr)            // find substring index or -1
 
 // Number
